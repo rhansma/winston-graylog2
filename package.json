@@ -1,8 +1,8 @@
 {
   "name": "winston-graylog2",
   "description": "A graylog2 transport for winston",
-  "version": "0.5.2",
-  "author": "Started by: Flite, Inc. http://www.flite.com, mantained by: Namshi http://namshi.com",
+  "version": "1.0.0",
+  "author": "Started by: Flite, Inc. http://www.flite.com, mantained by: Robin Hansma http://lrhitsolutions.nl",
   "contributors": [
     {
       "name": "Luciano Colosio"
@@ -30,18 +30,21 @@
     },
     {
       "name": "Arttu Tervo"
+    },
+    {
+      "name": "Robin Hansma"
     }
   ],
   "dependencies": {
     "graylog2": "^0.1.3",
-    "lodash": "^3.7.0",
-    "winston": "^1.0.0"
+    "lodash": "^4.17.2",
+    "winston": "^2.3.0"
   },
   "devDependencies": {
     "mocha": "*"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.6.1"
   },
   "keywords": [
     "logging",
@@ -54,7 +57,7 @@
   "main": "./lib/winston-graylog2",
   "repository": {
     "type": "git",
-    "url": "http://github.com/flite/winston-graylog2.git"
+    "url": "http://github.com/rhansma/winston-graylog2.git"
   },
   "scripts": {
     "test": "mocha -b"
