@@ -2,26 +2,28 @@
 
 A [graylog2][0] transport for [winston][1] based on the [node-graylog2][2] Library
 
+Updated version, this version supports Winston2 and updated other dependencies to their newest versions. Also makes use of YARN.
+
 ## Installation
 
-Tested on node-0.10.x, requires npm.
+Tested on node-4.6.1, requires npm.
 
 ``` sh
-  $ npm install winston
-  $ npm install winston-graylog2
+  $ yarn add winston
+  $ yarn add winston2-graylog2
 ```
 
 ## Usage
 ```javascript
   var winston = require('winston');
-  winston.add(require('winston-graylog2'), options);
+  winston.add(require('winston2-graylog2'), options);
 
 ```
 
 or
 
 ```javascript
-var WinstonGraylog2 = require('winston-graylog2');
+var WinstonGraylog2 = require('winston2-graylog2');
 var logger = new(winston.Logger)({
         exitOnError: false,
         transports: [new(WinstonGraylog2)(options)]
