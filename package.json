@@ -1,5 +1,5 @@
 {
-  "name": "winston-graylog2",
+  "name": "winston2-graylog2",
   "description": "A graylog2 transport for winston",
   "version": "1.0.0",
   "author": "Started by: Flite, Inc. http://www.flite.com, mantained by: Robin Hansma http://lrhitsolutions.nl",
